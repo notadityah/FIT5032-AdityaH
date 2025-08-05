@@ -1,20 +1,20 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import Counter from './components/Counter.vue'
+import MyName from './components/MyName.vue'
 </script>
-
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="My name is Adi" />
+      <HelloWorld msg="You did it!" />
     </div>
   </header>
 
   <main>
     <TheWelcome />
+    <MyName />
   </main>
 </template>
 
