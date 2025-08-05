@@ -113,7 +113,8 @@
         <li
           v-for="author in authors"
           :key="author.id"
-          v-bind:class="{ highlight: author.id === orwell?.id }"
+          :class="{ highlight: author.name === 'George Orwell' }"
+          :style="{ color: author.name === 'George Orwell' ? 'red' : '' }"
         >
           {{ author.name }} ({{ author.birthYear }})
         </li>
